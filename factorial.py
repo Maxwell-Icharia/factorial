@@ -1,5 +1,8 @@
 def factorial(n):
-	for i in xrange(n):
-		if i > 0:
-			d = i * i
-			return d
+	if n == int:
+		for i in xrange(n):
+			if i > 0:
+				d = i * i
+				return d
+	else:
+		return 'Invalid input'
